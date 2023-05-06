@@ -1,0 +1,12 @@
+header{
+    height: 90px;
+}
+
+main{
+    height: calc(100vh - 90px);
+    width: 100%;
+}
+
+div.my-sidebar{
+    max-width: 15%;
+}
