@@ -1,12 +1,16 @@
 header{
-    height: 90px;
+    height: 60px;
 }
 
 main{
-    height: calc(100vh - 90px);
+    height: calc(100vh - 60px);
     width: 100%;
 }
 
 div.my-sidebar{
     max-width: 15%;
+}
+
+.my-logo{
+    width:2.5rem;
 }
