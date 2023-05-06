@@ -14,3 +14,19 @@ div.my-sidebar{
 .my-logo{
     width:2.5rem;
 }
+
+.my-lg-logo{
+    display: none;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (min-width:992px) {
+    .my-logo{
+        display: none;
+    }
+
+    .my-lg-logo{
+        display: unset;
+    }
+}
