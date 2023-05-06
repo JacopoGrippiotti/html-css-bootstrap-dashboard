@@ -15,7 +15,7 @@ main{
 }
 
 div.my-sidebar{
-    max-width: 15%;
+    max-width: 57px;
 }
 
 .my-logo{
@@ -26,14 +26,29 @@ div.my-sidebar{
     display: none;
 }
 
+.my-placeholder-font-size{
+    font-size: 0.90rem;
+}
+
+.my-main-navbar{
+    width: 100%;
+    height: 70px;
+}
+
 /*COLORS*/
 
 .my-bg-gray{
     background-color: #e5e5e5;
 }
 
-/*MEDIA QUERY*/
+.my-bg-blue{
+    background-color: #1b72e8;
+}
 
+/*MEDIA QUERY*/
+@media screen and (min-width:576px) {
+    
+}
 @media screen and (min-width:992px) {
     .my-logo{
         display: none;
@@ -41,5 +56,9 @@ div.my-sidebar{
 
     .my-lg-logo{
         display: unset;
+    }
+
+    div.my-sidebar{
+        max-width: 155px;
     }
 }
