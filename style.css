@@ -40,9 +40,16 @@ section.my-sidebar{
 }
 
 .my-bg-blue{
-    background-color: #1b72e8;
+    background-color: #3c6fe5;
 }
 
+.my-sidebar-bg-color{
+    background-color: #122337;
+}
+
+.my-main-bg-color{
+    background-color: #f8f9fa;
+}
 /*MEDIA QUERY*/
 @media screen and (min-width:576px) {
     
