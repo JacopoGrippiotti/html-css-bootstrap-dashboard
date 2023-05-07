@@ -30,7 +30,9 @@ section.my-sidebar{
     font-size: 0.90rem;
 }
 
-
+.justify-self-end{
+    justify-self: end;
+}
 /*COLORS*/
 
 .my-bg-gray{
