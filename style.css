@@ -16,6 +16,12 @@ main{
 
 section.my-sidebar{
     max-width: 60px;
+    height: calc(100vh - 70px);
+}
+
+section.my-main-content{
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
 }
 
 .my-logo{
@@ -59,7 +65,7 @@ section.my-sidebar{
     width: 1.7rem;
     border-radius: 50%;
     vertical-align: top;
-    
+
 }
 
 .icon-square{
