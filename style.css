@@ -50,6 +50,11 @@ section.my-sidebar{
 .my-main-bg-color{
     background-color: #f8f9fa;
 }
+
+.first-table-col{
+    width: 35%;
+}
+
 /*MEDIA QUERY*/
 @media screen and (min-width:576px) {
     
@@ -65,5 +70,9 @@ section.my-sidebar{
 
     section.my-sidebar{
         max-width: 142px;
+    }
+
+    .first-table-col{
+        width: 50%;
     }
 }
