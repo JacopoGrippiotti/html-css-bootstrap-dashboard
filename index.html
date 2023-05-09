@@ -76,7 +76,19 @@
                     <div class="row gx-0 align-items-baseline ">
                         
                         <div class="col-12 col-sm-4 col-lg-6 p-1 mt-4 ">
-                            <span class="fs-6">Nuovo Studente</span><i class="fa-solid fa-square-plus ms-2"></i>
+                            <span class="fs-6">Nuovo Studente</span>
+                            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i class="fa-regular fa-plus"></i>
+                            </button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                               <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                               </div>
+                               <div class="offcanvas-body">
+                               </div>
+                            </div>
                         </div>
                         
                         <div class="col-12 col-sm-4 col-lg-3 p-1 d-flex flex-column">
